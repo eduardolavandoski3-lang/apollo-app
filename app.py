@@ -58,7 +58,7 @@ if prompt := st.chat_input("Ordens, DARKLORD?"):
         
         try:
             completion = client.chat.completions.create(
-                model="llama-3.3-70b-versatile", # O cérebro mais potente disponível no Groq
+                model="llama3-70b-8192", # O cérebro mais potente disponível no Groq
                 messages=full_messages,
                 temperature=0.7, # Equilíbrio entre criatividade e precisão técnica
                 max_tokens=2048,
