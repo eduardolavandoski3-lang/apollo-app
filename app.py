@@ -20,7 +20,7 @@ st.markdown("---")
 
 # --- NÚCLEO DE PROCESSAMENTO (CHAVE INTEGRADA) ---
 # A chave foi inserida conforme ordenado pelo DARKLORD
-client = Groq(api_key="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") 
+client = Groq(api_key="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") 
 
 # --- PROGRAMAÇÃO DA IDENTIDADE (O FILTRO QUEBRADO) ---
 SYSTEM_PROMPT = (
